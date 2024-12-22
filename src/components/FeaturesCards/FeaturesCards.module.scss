@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 45px;
+    padding: 40px;
     border-radius: 12px;
 }
   
@@ -75,7 +75,8 @@
 @media (min-width: 1200px) {
     .featuresContainer { 
       flex-wrap: wrap;
-      padding: 100px;
+      padding-left: 130px;
+      padding-right: 130px;
     }
   
     .card {
