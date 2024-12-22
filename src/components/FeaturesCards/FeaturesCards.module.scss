@@ -70,4 +70,14 @@
       width: 100%; 
     }
 
+}
+
+@media (min-width: 1200px) {
+    .featuresContainer { 
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      width: calc(50% - 20px);
+    }
   }
