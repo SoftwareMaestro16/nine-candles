@@ -15,7 +15,7 @@ export const Features = [
     id: 2,
     icon: img2,
     name: "Tools",
-    title: "Analytics Tools",
+    title: "Utility Tools",
     description: "Comprehensive tools for analyzing crypto investments and market trends."
   },
   {
