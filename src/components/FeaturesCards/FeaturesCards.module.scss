@@ -1,0 +1,73 @@
+.featuresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 12px;
+  }
+  
+.card {
+  display: flex;
+  align-items: center; 
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #293f32;
+  width: clamp(260px, 35vw, 510px);; 
+  max-width: 500px; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px #00000033;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 10px #07b05c;
+    }
+  }
+
+  .iconContainer {
+    width: 55px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #51b751db;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+    
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px; 
+  }
+  
+  .topPart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%; 
+    margin-left: 5px;
+  }
+  
+  .topPart h3 {
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem); 
+    color: #ffffff;
+    text-align: left;
+    margin-left: 12px;
+  }
+  
+  .desc {
+    font-size: clamp(1rem, 2vw, 1.3rem); 
+    color: #cfcfcf;
+    text-align: left;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; 
+    }
+
+  }
