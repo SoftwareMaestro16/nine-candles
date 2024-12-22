@@ -1,6 +1,23 @@
 $second-color: #101114;
 
-.footerContainer {
+.footer {
     background-color: $second-color;
-    color: white;
-}
+    height: 8vh;
+    padding: 0 7%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  
+    h3 {
+      color: #ffffffd0;
+      font-size: 16px;
+      text-align: left;
+      font-weight: 500;
+    }
+  
+    a {
+      text-decoration: none; 
+      color: white; 
+    }
+  
+  }
