@@ -3,9 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 40px;
+    padding: 45px;
     border-radius: 12px;
-  }
+}
   
 .card {
   display: flex;
@@ -75,6 +75,7 @@
 @media (min-width: 1200px) {
     .featuresContainer { 
       flex-wrap: wrap;
+      padding: 70px;
     }
   
     .card {
